@@ -3,7 +3,7 @@
 #include <termios.h>
 #include <unistd.h>
 
-#include "../helper.h"
+#include "helper.h"
 
 int test_cleanup_resources(void) {
     struct helper_config cfg = {0};
